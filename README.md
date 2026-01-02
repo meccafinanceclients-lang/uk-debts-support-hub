@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UK Debt Support Hub</title>
+  <meta name="description" content="Confidential UK support for individuals facing debt, council tax arrears, or enforcement concerns.">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f6f7f8;
+      color: #222;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+      background: #ffffff;
+    }
+    h1, h2, h3 {
+      color: #0a2540;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+    .hero {
+      text-align: center;
+      padding-bottom: 30px;
+      border-bottom: 1px solid #ddd;
+    }
+    .hero p {
+      font-size: 18px;
+    }
+    .checklist {
+      list-style: none;
+      padding: 0;
+    }
+    .checklist li {
+      margin: 8px 0;
+    }
+    .section {
+      margin-top: 40px;
+    }
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .box {
+      background: #f0f4f8;
+      padding: 20px;
+      border-radius: 6px;
+    }
+    .form-box {
+      background: #f9fafb;
+      padding: 25px;
+      border-radius: 6px;
+      border: 1px solid #ddd;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 15px;
+    }
+    select, input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    button {
+      margin-top: 25px;
+      width: 100%;
+      padding: 14px;
+      background: #0a2540;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #081f36;
+    }
+    .note {
+      font-size: 14px;
+      color: #555;
+      margin-top: 15px;
+    }
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+      font-size: 13px;
+      color: #555;
+    }
+    .footer a {
+      color: #555;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>Struggling with Bailiffs, Council Tax, or Debt Pressure?</h1>
+    <p>
+      Support options may be available if you’re dealing with enforcement action,
+      unpaid bills, or financial stress.
+    </p>
+    <ul class="checklist">
+      <li>✔ Confidential</li>
+      <li>✔ UK-based</li>
+      <li>✔ No upfront commitment</li>
+    </ul>
+    <p><strong>Check your situation below</strong></p>
+  </div>
+
+  <!-- INFO -->
+  <div class="section">
+    <p>
+      We help connect individuals across the UK who are facing debt or enforcement
+      concerns with regulated advice partners who can explain available options.
+    </p>
+  </div>
+
+  <!-- HOW IT WORKS -->
+  <div class="section">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="box">
+        <h3>1. Answer a few questions</h3>
+        <p>Tell us about your situation so we can understand your needs.</p>
+      </div>
+      <div class="box">
+        <h3>2. Get connected</h3>
+        <p>You may be connected with a regulated UK advice partner.</p>
+      </div>
+      <div class="box">
+        <h3>3. Explore your options</h3>
+        <p>They can explain possible next steps.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FORM -->
+  <div class="section form-box">
+    <h2>Check Your Situation</h2>
+
+    <form action="https://formsubmit.co/meccafinanceclients@gmail.com" method="POST">
+
+      <label>Have you received a bailiff or enforcement notice recently?</label>
+      <select name="Bailiff Notice" required>
+        <option value="">Select</option>
+        <option>Yes</option>
+        <option>No</option>
+      </select>
+
+      <label>Is your debt related to:</label>
+      <select name="Debt Type" required>
+        <option value="">Select</option>
+        <option>Council Tax</option>
+        <option>Gas / Electricity / Utilities</option>
+        <option>Other household debt</option>
+      </select>
+
+      <label>Are bailiffs threatening to visit your home or seize belongings?</label>
+      <select name="Bailiff Threat" required>
+        <option value="">Select</option>
+        <option>Yes</option>
+        <option>No</option>
+      </select>
+
+      <label>When is the best time to contact you?</label>
+      <select name="Preferred Contact Time" required>
+        <option value="">Select</option>
+        <option>Morning</option>
+        <option>Afternoon</option>
+        <option>Evening</option>
+        <option>WhatsApp first</option>
+      </select>
+
+      <label>First Name</label>
+      <input type="text" name="First Name" required>
+
+      <label>Last Name</label>
+      <input type="text" name="Last Name" required>
+
+      <label>Mobile Number</label>
+      <input type="tel" name="Mobile Number" required>
+
+      <label>Email Address</label>
+      <input type="email" name="Email" required>
+
+      <!-- FormSubmit Settings -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_subject" value="New UK Debt Support Lead">
+
+      <button type="submit">Submit & Check Options</button>
+
+    </form>
+
+    <p class="note">
+      🔒 Your information is treated confidentially and used only to assist with your enquiry.
+    </p>
+  </div>
+
+  <!-- DISCLAIMER -->
+  <div class="section">
+    <p class="note">
+      We are not a lender and do not provide financial advice.<br><br>
+      We connect individuals facing debt or enforcement concerns with regulated UK advice partners.<br><br>
+      Solutions may not be suitable for all circumstances and your credit rating may be affected.<br><br>
+      Some solutions may involve fees.<br><br>
+      Free, independent advice is also available from <strong>MoneyHelper.org.uk</strong>.
+    </p>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <p><strong>UK Debt Support Hub</strong></p>
+    <p>Supporting individuals across the UK facing debt, council tax arrears, or enforcement concerns.</p>
+    <p>
+      <a href="#">Privacy Policy</a> |
+      <a href="#">Terms of Use</a>
+    </p>
+    <p>© 2026 UK Debt Support Hub</p>
+  </div>
+
+</div>
+
+</body>
+</html>
